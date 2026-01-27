@@ -4,6 +4,7 @@
 
 - [ ] Follow SFC structure best practices
 - [ ] Used `v-for` and `v-if` correctly
+- [ ] Followed slot best practices
 - [ ] Access DOM / component refs correctly
 - [ ] Handled fallthrough attributes (`$attrs`) correctly if needed
 - [ ] Used component-scoped styles appropriately
@@ -65,6 +66,26 @@ Good: move `v-if` to a container element or `<template>`
   </li>
 </ul>
 ```
+
+## Slot best practices
+
+### Shorthand syntax for named slots
+
+Bad: use verbose syntax
+```vue
+<MyComponent>
+  <template v-slot:header> ... </template>
+</MyComponent>
+```
+
+Good: use shorthand syntax
+```vue
+<MyComponent>
+  <template #header> ... </template>
+</MyComponent>
+```
+
+[Referece](https://vuejs.org/guide/components/slots.html#named-slots)
 
 ## Access DOM / component refs
 
