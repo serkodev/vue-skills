@@ -17,7 +17,7 @@ npx skills add serkodev/vue-skills
 
 ## Skills
 
-### `vue-best-practices`
+### 🪄 `vue-best-practices`
 
 This skill enforces best practices when developing Vue.js or Nuxt applications.
 
@@ -33,13 +33,13 @@ create a todo app
 
 #### Changes after using skill
 
-- [x] more readable [code](demo/todo-app/with-skills/App.vue)
-- [x] [components](demo/todo-app/with-skills/components) splited
-- [x] moved states into composables ([useTodos.ts](demo/todo-app/with-skills/composables/useTodos.ts))
-- [x] use `shallowRef` for primitive reactive data (see [Reactivity Guide](skills/vue-best-prastice/references/reactivity-guide.md))
+- More readable [code](demo/todo-app/with-skills/App.vue)
+- [Components](demo/todo-app/with-skills/components) splited
+- Moved states into composables ([useTodos.ts](demo/todo-app/with-skills/composables/useTodos.ts))
+- Use `shallowRef` for primitive reactive data (see [Reactivity Guide](skills/vue-best-prastice/references/reactivity-guide.md))
 
 
-### `create-agnostic-composable`
+### 🪄 `create-agnostic-composable`
 
 This skill help to create a reusable composable (VueUse-like) for controlling hidden for an element.
 
@@ -55,7 +55,7 @@ create a reusable composable for controling hidden for a element
 
 #### Changes after using skill
 
-Used `MaybeRef` and `MaybeRefOrGetter` for input parameters for reactivity flexibility.
+- Used `MaybeRef` and `MaybeRefOrGetter` for input parameters for reactivity flexibility.
 
 ```ts
 export interface UseHiddenOptions {
