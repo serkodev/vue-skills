@@ -11,6 +11,22 @@ Agent Skills for Vue.js development.
 npx skills add serkodev/vue-skills
 ```
 
+## Demo
+
+### [Todo App](./demo/todo-app)
+
+Prompt
+
+```
+create a todo app
+```
+
+#### Changes after using skill
+- [x] more readable code
+- [x] components splited
+- [x] moved states into composables (useTodos)
+- [x] use `shallowRef` for primitive reactive data
+
 ## License
 
 MIT
