@@ -15,9 +15,13 @@ Agent Skills for Vue.js development.
 npx skills add serkodev/vue-skills
 ```
 
-## Demo
+## Skills
 
-### Todo App ([Source](./demo/todo-app))
+### `vue-best-practices`
+
+This skill enforces best practices when developing Vue.js or Nuxt applications.
+
+#### Demo - Todo App
 
 Prompt
 
@@ -25,11 +29,46 @@ Prompt
 create a todo app
 ```
 
+🔎 See demo [full output](./demo/todo-app).
+
 #### Changes after using skill
+
 - [x] more readable [code](demo/todo-app/with-skills/App.vue)
 - [x] [components](demo/todo-app/with-skills/components) splited
 - [x] moved states into composables ([useTodos.ts](demo/todo-app/with-skills/composables/useTodos.ts))
 - [x] use `shallowRef` for primitive reactive data (see [Reactivity Guide](skills/vue-best-prastice/references/reactivity-guide.md))
+
+
+### `create-agnostic-composable`
+
+This skill help to create a reusable composable (VueUse-like) for controlling hidden for an element.
+
+#### Demo - useHidden
+
+Prompt
+
+```
+create a reusable composable for controling hidden for a element
+```
+
+🔎 See demo [full output](./demo/hidden-composable).
+
+#### Changes after using skill
+
+Used `MaybeRef` and `MaybeRefOrGetter` for input parameters for reactivity flexibility.
+
+```ts
+export interface UseHiddenOptions {
+  hidden?: MaybeRef<boolean>
+  initialHidden?: MaybeRefOrGetter<boolean>
+  syncAria?: boolean
+}
+
+export function useHidden(
+  target?: MaybeRefOrGetter<HTMLElement | null | undefined>,
+  options: UseHiddenOptions = {},
+)
+```
 
 ## Related Projects
 
