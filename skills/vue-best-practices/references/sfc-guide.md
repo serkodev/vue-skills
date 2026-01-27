@@ -2,7 +2,6 @@
 
 ## Tasks Checklist
 
-- [ ] Follow SFC structure best practices
 - [ ] Used `v-for` and `v-if` correctly
 - [ ] Followed slot best practices
 - [ ] Access DOM / component refs correctly
