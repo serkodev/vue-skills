@@ -17,7 +17,7 @@ npx skills add serkodev/vue-skills
 
 ## Demo
 
-### [Todo App](./demo/todo-app)
+### Todo App ([Source](./demo/todo-app))
 
 Prompt
 
@@ -26,10 +26,10 @@ create a todo app
 ```
 
 #### Changes after using skill
-- [x] more readable code
-- [x] components splited
-- [x] moved states into composables (useTodos)
-- [x] use `shallowRef` for primitive reactive data
+- [x] more readable [code](demo/todo-app/with-skills/App.vue)
+- [x] [components](demo/todo-app/with-skills/components) splited
+- [x] moved states into composables ([useTodos.ts](demo/todo-app/with-skills/composables/useTodos.ts))
+- [x] use `shallowRef` for primitive reactive data (see [Reactivity Guide](skills/vue-best-prastice/references/reactivity-guide.md))
 
 ## Related Projects
 
