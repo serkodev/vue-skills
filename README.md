@@ -1,10 +1,13 @@
-# vue-skills
+![Vue Skills banner](./.github/assets/banner.png)
+
+# Vue Skills
 
 Agent Skills for Vue.js development.
 
 > [!IMPORTANT]
 > (WIP) This project is under development. The skills provided here are experimental and may change in the future. Use them with caution and at your own risk, feedbacks are welcome!
->
+
+> [!NOTE]
 > I started vue-skills to provide a reusable, community-friendly collection of Vue.js agent skills that lowers the barrier to adopting AI-assisted development in Vue projects.
 > 
 > (Unofficial) This project is not a official Vue.js project, if the project proves useful and aligns with the Vue community’s needs, I’m happy to transfer it to the Vue organization so it can be maintained collaboratively as a sustainable community asset.
