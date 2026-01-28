@@ -8,9 +8,14 @@ Agent Skills for Vue.js development.
 > (WIP) This project is under development. The skills provided here are experimental and may change in the future. Use them with caution and at your own risk, feedbacks are welcome!
 
 > [!NOTE]
-> I started vue-skills to provide a reusable, community-friendly collection of Vue.js agent skills that lowers the barrier to adopting AI-assisted development in Vue projects.
+> I started vue-skills to offer reusable, community-friendly Vue.js agent skills that make AI-assisted development easier to adopt in Vue projects.
 > 
-> (Unofficial) This project is not a official Vue.js project, if the project proves useful and aligns with the Vue community’s needs, I’m happy to transfer it to the Vue organization so it can be maintained collaboratively as a sustainable community asset.
+> (Unofficial) This project is not a official Vue.js project, if it proves useful and fits the community’s needs, I’m happy to transferring it to the Vue organization for collaborative and long-term maintenance.
+
+- 🛡️ High Reliability: Optimized prompts for consistent results on lower-tier models.
+- 📚 Comprehensive Best Practices: Combines official guidance with real-world production experience.
+- ⚡ Modern Vue.js Stack: Built for Vue 3 and Nuxt 3 with TypeScript.
+- 🔌 Offline-First Design: Works fully offline without extra permissions.
 
 ## Installation
 
@@ -20,9 +25,15 @@ npx skills add serkodev/vue-skills
 
 ## Skills
 
-### 🪄 `vue-best-practices`
+#### [`vue-best-practices`](#-vue-best-practices)  
+  This skill enforces best practices when developing Vue.js or Nuxt applications.
 
-This skill enforces best practices when developing Vue.js or Nuxt applications.
+#### [`create-agnostic-composable`](#-create-agnostic-composable)  
+  This skill help to create a reusable composable (VueUse-like) for controlling hidden for an element.
+
+## Demos
+
+### 🪄 `vue-best-practices`
 
 #### Demo - Todo App
 
@@ -41,10 +52,9 @@ create a todo app
 - Moved states into composables ([useTodos.ts](demo/todo-app/with-skills/composables/useTodos.ts))
 - Use `shallowRef` for primitive reactive data (see [Reactivity Guide](skills/vue-best-prastice/references/reactivity-guide.md))
 
+---
 
 ### 🪄 `create-agnostic-composable`
-
-This skill help to create a reusable composable (VueUse-like) for controlling hidden for an element.
 
 #### Demo - useHidden
 
