@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> ## ⚠️ Project Notice
+> This project has been miragted to the [**Vue AI**](https://github.com/vuejs-ai) organization and is now jointly maintained there.
+> 
+> 👉 https://github.com/vuejs-ai/skills
+
 ![Vue Skills banner](./.github/assets/banner.png)
 
 # Vue Skills
